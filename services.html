@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Services - Atlas Mining Equipment</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <img src="Atlass Mining Equipment Logo.png" alt="Company Logo" width="100" height="100">
+        <div class="center-content">
+            <h1>Atlas Mining Equipment</h1>
+            <input type="text" placeholder="Search equipment..">
+        </div>
+    </header>
+
+    <!-- Navigation -->
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="products.html">Products</a></li>
+            <li><a href="contact us.html">Contact Us</a></li>
+            <li><a href="services.html">Services</a></li>
+        </ul>
+    </nav>
+
+    <main>
+
+        <!-- Services Intro -->
+        <section id="services">
+            <h3>Our Services</h3>
+            <p>We provide reliable mining equipment solutions designed for efficiency, safety and performance.</p>
+        </section>
+
+        <!-- Services Grid -->
+        <div class="services-grid">
+
+            <div>
+                <h4>Equipment Rental</h4>
+                <p>Short and long term rental of heavy duty mining lifting equipment for all operation sizes.</p>
+            </div>
+
+            <div>
+                <h4>Maintenance & Repairs</h4>
+                <p>On-site and workshop maintenance services to keep your equipment running at peak performance.</p>
+            </div>
+
+            <div>
+                <h4>Equipment Sales</h4>
+                <p>We supply new and refurbished mining lifting equipment sourced from trusted manufacturers.</p>
+            </div>
+
+            <div>
+                <h4>Technical Support</h4>
+                <p>Expert technical advice and on-call support to assist your team during operations.</p>
+            </div>
+
+            <div>
+                <h4>Safety Inspections</h4>
+                <p>Certified safety checks and compliance inspections to meet industry regulations and standards.</p>
+            </div>
+
+            <div>
+                <h4>Operator Training</h4>
+                <p>Professional training programs to ensure your operators use equipment safely and efficiently.</p>
+            </div>
+
+        </div>
+
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        Copyright 2026 &nbsp; Website Developed by Moemedi Kotovare
+    </footer>
+    <script>
+    document.querySelector('input').onkeypress = function(e) {
+        if (e.key === 'Enter')
+            window.location.href = 'products.html?search=' + this.value;
+    }
+</script>
+
+</body>
+</html>
