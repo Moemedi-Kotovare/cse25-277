@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FAQ - Atlas Mining Equipment</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <img src="Atlass Mining Equipment Logo.png" alt="Company Logo" width="100">
+        <div class="center-content">
+            <h1>Atlas Mining Equipment</h1>
+            <input type="text" placeholder="Search equipment..">
+        </div>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="products.html">Products</a></li>
+            <li><a href="contact us.html">Contact Us</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="faq.html">FAQ</a></li>
+        </ul>
+    </nav>
+
+    <div class="faq-container">
+        <h2>Frequently Asked Questions</h2>
+
+        <div class="faq-item">
+            <button class="faq-question">What types of mining equipment do you supply?</button>
+            <div class="faq-answer">We supply a wide range of mining equipment including crawlers, hoists, lifting slings, load binders, chains, and other lifting and rigging solutions.</div>
+        </div>
+
+        <div class="faq-item">
+            <button class="faq-question">Do you offer equipment maintenance services?</button>
+            <div class="faq-answer">Yes, we offer maintenance and inspection services for all equipment we supply to ensure safe and efficient operation.</div>
+        </div>
+
+        <div class="faq-item">
+            <button class="faq-question">How do I place an order?</button>
+            <div class="faq-answer">You can place an order by contacting us through our Contact Us page or by calling us directly. Our team will guide you through the ordering process.</div>
+        </div>
+
+        <div class="faq-item">
+            <button class="faq-question">Do you offer delivery services?</button>
+            <div class="faq-answer">Yes, we offer delivery services across Botswana and surrounding regions. Delivery times and costs depend on the size and destination of the order.</div>
+        </div>
+
+        <div class="faq-item">
+            <button class="faq-question">Do you offer equipment rental?</button>
+            <div class="faq-answer">Currently we focus on equipment sales. Please contact us for more information on any flexible purchasing options we may offer.</div>
+        </div>
+
+        <div class="faq-item">
+            <button class="faq-question">How do I contact customer support?</button>
+            <div class="faq-answer">You can reach our customer support team through the Contact Us page on this website. We aim to respond to all inquiries within 24 hours.</div>
+        </div>
+
+    </div>
+
+    <footer>
+        <p>Copyright 2026 &nbsp; Website developed by Moemedi Kotovare</p>
+    </footer>
+
+    <script>
+        const questions = document.querySelectorAll('.faq-question');
+        questions.forEach(question => {
+            question.addEventListener('click', () => {
+                const answer = question.nextElementSibling;
+                answer.classList.toggle('open');
+            });
+        });
+    </script>
+
+</body>
+</html>
